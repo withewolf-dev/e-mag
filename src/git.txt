@@ -1,0 +1,4 @@
+"homepage": "http://withewolf-dev.github.io/e-mag",
+
+"predeploy": "npm run build",
+    "deploy": "gh-pages -d build",

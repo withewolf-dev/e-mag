@@ -1,5 +1,4 @@
 {
-  "homepage": "http://withewolf-dev.github.io/e-mag",
   "name": "react-pwa",
   "version": "1.0.1",
   "private": true,
@@ -23,8 +22,6 @@
     "uuid": "^8.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "start-prod": "yarn build && yarn serve",
