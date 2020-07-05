@@ -1,0 +1,30 @@
+{
+  "files": {
+    "static/js/0.22bbcd6b.chunk.js": "/e-mag/static/js/0.22bbcd6b.chunk.js",
+    "static/js/1.a9e17190.chunk.js": "/e-mag/static/js/1.a9e17190.chunk.js",
+    "main.css": "/e-mag/static/css/main.624a178d.chunk.css",
+    "main.js": "/e-mag/static/js/main.87e94aed.chunk.js",
+    "runtime-main.js": "/e-mag/static/js/runtime-main.b38e2a8d.js",
+    "static/js/4.00734e3f.chunk.js": "/e-mag/static/js/4.00734e3f.chunk.js",
+    "static/js/5.c1eee38f.chunk.js": "/e-mag/static/js/5.c1eee38f.chunk.js",
+    "static/js/6.07dc4a66.chunk.js": "/e-mag/static/js/6.07dc4a66.chunk.js",
+    "static/js/7.90aac360.chunk.js": "/e-mag/static/js/7.90aac360.chunk.js",
+    "static/js/8.e9ee0aaf.chunk.js": "/e-mag/static/js/8.e9ee0aaf.chunk.js",
+    "static/js/9.32e84db4.chunk.js": "/e-mag/static/js/9.32e84db4.chunk.js",
+    "static/js/10.f9f95ed3.chunk.js": "/e-mag/static/js/10.f9f95ed3.chunk.js",
+    "static/js/11.381bb338.chunk.js": "/e-mag/static/js/11.381bb338.chunk.js",
+    "static/js/12.8903ef49.chunk.js": "/e-mag/static/js/12.8903ef49.chunk.js",
+    "index.html": "/e-mag/index.html",
+    "precache-manifest.abf4cd7ce88be1dc0976eba7fd7e00b0.js": "/e-mag/precache-manifest.abf4cd7ce88be1dc0976eba7fd7e00b0.js",
+    "service-worker.js": "/e-mag/service-worker.js",
+    "static/js/1.a9e17190.chunk.js.LICENSE.txt": "/e-mag/static/js/1.a9e17190.chunk.js.LICENSE.txt",
+    "static/js/4.00734e3f.chunk.js.LICENSE.txt": "/e-mag/static/js/4.00734e3f.chunk.js.LICENSE.txt",
+    "static/js/5.c1eee38f.chunk.js.LICENSE.txt": "/e-mag/static/js/5.c1eee38f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b38e2a8d.js",
+    "static/js/4.00734e3f.chunk.js",
+    "static/css/main.624a178d.chunk.css",
+    "static/js/main.87e94aed.chunk.js"
+  ]
+}
