@@ -14,13 +14,12 @@ import {
   FaBrush as BrushIcon,
   FaRedo as RedoIcon,
   FaBars as MenuIcon,
-  FaGithub as GithubIcon,
 } from 'react-icons/fa';
 
 import Link from 'components/Link';
 
 import { useStore } from 'store';
-import { title, repository } from 'config';
+import { title } from 'config';
 
 import useStyles from './styles';
 

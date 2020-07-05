@@ -5,7 +5,6 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
-import { FaReact as ReactIcon } from 'react-icons/fa';
 
 import Meta from 'components/Meta';
 
