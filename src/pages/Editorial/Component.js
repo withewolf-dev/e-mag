@@ -1,11 +1,10 @@
 import React from 'react';
-
+import CardMedia from '@material-ui/core/CardMedia';
 import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-
 import Meta from 'components/Meta';
 
 import useStyles from './styles';
+import { Card } from '@material-ui/core';
 
 function Page1() {
   const classes = useStyles();
@@ -16,8 +15,15 @@ function Page1() {
         title="Page 1"
         description="Page 1"
       />
-      <Container maxWidth="sm" className={classes.root}>
-        <Typography variant="h3">Page 1</Typography>
+      <Container maxWidth='md'>
+      <br/>
+      <Card className={classes.root} >
+        <CardMedia
+          className={classes.media}
+          image="/src/components/images/avenger.jpg"
+          title='avenger'
+        />
+        </Card>
       </Container>
     </>
   );

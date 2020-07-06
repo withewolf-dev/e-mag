@@ -27,6 +27,11 @@ const routes = [
     path: '/editorial',
   },
   {
+    exact: true,
+    component: asyncComponentLoader(_ => import('pages/BakerStreet')),
+    path: '/bakerStreet',
+  },
+  {
     component: asyncComponentLoader(_ => import('components/NotFound')),
   },
 ];

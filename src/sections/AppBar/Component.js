@@ -9,6 +9,8 @@ import Box from '@material-ui/core/Box';
 import DividerMU from '@material-ui/core/Divider';
 import Tooltip from '@material-ui/core/Tooltip';
 import { withStyles } from '@material-ui/core/styles';
+import Slide from '@material-ui/core/Slide';
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 
 import {
   FaBrush as BrushIcon,
@@ -30,7 +32,11 @@ const Divider = withStyles({
   },
 })(props => <DividerMU flexItem orientation="vertical" {...props} />);
 
-function AppBar_({ isMenuOpen, onMenuOpen }) {
+
+
+
+
+function AppBar_({ isMenuOpen, onMenuOpen,props }) {
   const classes = useStyles();
   const { state, actions } = useStore();
 
@@ -41,10 +47,26 @@ function AppBar_({ isMenuOpen, onMenuOpen }) {
   function handleAppUpdate() {
     actions.sw.update();
   }
+  
+  function HideOnScroll(props) {
+    const { children, window } = props;
+    // Note that you normally won't need to set the window ref as useScrollTrigger
+    // will default to window.
+    // This is only being set here because the demo is in an iframe.
+    const trigger = useScrollTrigger({ target: window ? window() : undefined });
+  
+    return (
+      <Slide appear={false} direction="down" in={!trigger}>
+        {children}
+      </Slide>
+    );
+  }
 
   return (
+    
+    <HideOnScroll>
     <AppBar
-      position="absolute"
+      position="fixed"
       className={classes.appBar}
       color="transparent"
       elevation={1}
@@ -93,6 +115,7 @@ function AppBar_({ isMenuOpen, onMenuOpen }) {
         </Box>
       </Toolbar>
     </AppBar>
+    </HideOnScroll>
   );
 }
 
